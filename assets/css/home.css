@@ -1,0 +1,141 @@
+section {
+  	color: #fff;
+  	height: 100vh;
+  	padding-top: 60px !important;
+  	background-color: #fff;
+  -webkit-transition: 0.5s ease;
+  	transition: 0.5s ease;
+}
+section h1 {
+  	margin: 0;
+}
+
+.button {
+  display: inline-block;
+  margin: 0.3em;
+  padding: 0.6em 2em;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 3px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+  border: none; 
+  text-align: center;
+}
+
+.button:hover {
+  box-shadow: 1px 6px 15px rgba(0,0,0,0.5);
+}
+
+.green {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#page-1 {
+	background: url("https://static.pexels.com/photos/7107/notebook-hero-workspace-minimal.jpg");
+	  background: url("https://static.pexels.com/photos/7107/notebook-hero-workspace-minimal.jpg");
+  background-size: cover;
+  background-repeat: repeat, no-repeat;
+/* background-position: top left,center center; */
+}
+#intro-hero {
+  margin-top: 100px;
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 1px 1px 0.5px rgba(0,0,0,0.3);
+}
+.white {
+  color: #fff;
+  text-shadow: 1px 1px 0.5px rgba(0,0,0,0.3);
+}
+#page-1 h3 {
+  font-size: 20px;
+  margin: 5px 0;
+  opacity: 0.8;
+}
+#page-1 #free.btn.green {
+  margin-top: 20px;
+  background: green;
+}
+#page-1 .bottom {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 15px;
+  margin: 0 auto;
+  width: 75%;
+}
+#page-1 .bottom .col-xs-3 {
+  border-right: 1px solid rgba(255,255,255,0.15);
+}
+#page-1 .bottom .col-xs-3:last-child {
+  border: none;
+}
+#page-1 .bottom .counter .white {
+  font-size: 20px;
+  font-weight: bold;
+}
+#page-1 .flash-preview {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  padding: 10px;
+  color: #fff;
+}
+/* What is Multiplier Slide */
+#page-2 {
+  position: relative;
+  background: -webkit-linear-gradient(40deg, rgba(57,203,88,0.7), rgba(27,30,39,0.6));
+  background: linear-gradient(50deg, rgba(209,211,37,0.7), rgba(136,189,220,0.6));
+  background-repeat: no-repeat;
+  text-align: center;
+  z-index: 100;
+}
+#page-2:before {
+  position: absolute;
+  content: '';
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: url("https://codeanywhere.com/images/map-dots.png");
+  background-size: fixed;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+#page-2 h1 {
+  margin: 0 auto;
+}
+
+/* Startup,WorkspacesListing Slide */
+.typed-cursor {
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Website Preview Slide */
+#page-4.active > #site-demo {
+  position: fixed;
+  bottom: -80px;
+}

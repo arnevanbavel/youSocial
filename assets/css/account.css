@@ -1,0 +1,9 @@
+.panel > .panel-heading {
+    background-color: #67b0d1;
+    color: white;
+
+}
+
+.panel {
+    border-color: #67b0d1;
+}

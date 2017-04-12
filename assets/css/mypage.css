@@ -1,0 +1,7 @@
+#ervaring-section, #portofolio-section{
+	height: 100px;
+}
+
+#portofolio-section,#ervaring-section{
+	border: 1px solid black;	
+}
